@@ -12,10 +12,10 @@ same field by the hint numbers described above, we end up with the field on the 
 .*..
 ....
 
-*100
+"*100
 2210
 1*10
-1110
+1110"
 
 Input
 The input will consist of an arbitrary number of fields. The first line of each field
