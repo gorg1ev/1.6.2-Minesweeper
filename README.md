@@ -7,10 +7,12 @@ The game shows a number in a square which tells you how many mines there are
 adjacent to that square. Each square has at most eight adjacent squares. The 4 x4 field
 on the left contains two mines, each represented by a "*" character. If we represent the
 same field by the hint numbers described above, we end up with the field on the right:
+<pre>
 *...
 ....
 .*..
 ....
+</pre>
 
 "*100
 2210
