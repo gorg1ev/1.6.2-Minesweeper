@@ -8,17 +8,10 @@ adjacent to that square. Each square has at most eight adjacent squares. The 4 x
 on the left contains two mines, each represented by a "*" character. If we represent the
 same field by the hint numbers described above, we end up with the field on the right:
 <pre>
-*...
-....
-.*..
-....
-</pre>
-
-<pre>
-*100
-2210
-1*10
-1110
+*...    *100
+....    2210
+.*..    1*10
+....    1110
 </pre>
 
 Input
@@ -36,32 +29,18 @@ number of the field starting from 1. The next n lines should contain the field w
 "." characters replaced by the number of mines adjacent to that square. There must
 be an empty line between field outputs.
 
-Sample Input
 <pre>
-4 4
-*...
-....
-.*..
-....
+Sample Input      Sample Output
+4 4               Field #1:
+*...              *100
+....              2210
+.*..              1*10
+....              1110
 
-3 5
-**...
-.....
-.*...
+3 5               Field #2:
+**...             **100
+.....             33200
+.*...             1*100
 
 00
-</pre>
-
-Sample Output
-<pre>
-Field #1:
-*100
-2210
-1*10
-1110
-
-Field #2:
-**100
-33200
-1*100
 </pre>
