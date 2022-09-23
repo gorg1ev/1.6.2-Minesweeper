@@ -14,10 +14,12 @@ same field by the hint numbers described above, we end up with the field on the 
 ....
 </pre>
 
-"*100
+<pre>
+*100
 2210
 1*10
-1110"
+1110
+</pre>
 
 Input
 The input will consist of an arbitrary number of fields. The first line of each field
@@ -35,6 +37,7 @@ number of the field starting from 1. The next n lines should contain the field w
 be an empty line between field outputs.
 
 Sample Input
+<pre>
 4 4
 *...
 ....
@@ -47,8 +50,10 @@ Sample Input
 .*...
 
 00
+</pre>
 
 Sample Output
+<pre>
 Field #1:
 *100
 2210
@@ -59,3 +64,4 @@ Field #2:
 **100
 33200
 1*100
+</pre>
